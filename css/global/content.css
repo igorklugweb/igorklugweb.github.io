@@ -1,0 +1,25 @@
+.content-bg {
+  background-image: url(../../img/main2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+.content h1 {
+  line-height: 0.9;
+  padding-top: 240px;
+  padding-bottom: 20px;
+}
+
+.content h1::after {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(180deg, #35c0e3 0%, #3492d4 100%);
+  border-radius: 50%;
+}
+
+.content p {
+  padding-left: 20px;
+}

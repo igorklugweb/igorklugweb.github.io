@@ -1,0 +1,47 @@
+.introducao-bg {
+  background-color: var(--cor-1);
+}
+
+.introducao h1 {
+  padding-top: 72px;
+  margin-bottom: 40px;
+}
+
+.introducao h1::after {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(180deg, #35c0e3 0%, #3492d4 100%);
+  border-radius: 50%;
+  margin-left: 4px;
+}
+
+.introducao-lista ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  justify-items: center;
+  max-width: 1200px;
+  text-align: center;
+  gap: 60px;
+  align-items: start;
+}
+
+.introducao-lista li {
+  display: grid;
+}
+
+.introducao-lista img {
+  margin: 0 auto;
+  padding: 0px;
+  display: block;
+}
+
+.introducao-lista li > p {
+  justify-self: end;
+}
+
+.introducao-lista h3 {
+  margin: 12px 0;
+}
