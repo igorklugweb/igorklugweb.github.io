@@ -43,18 +43,7 @@
   margin-right: 12px;
 }
 
-/* .header-menu a:nth-child(1):before {
-  content: "";
-  background-image: url(../img/sobre.svg);
-  display: inline-block;
-  height: 20px;
-  width: 20px;
-
-  margin-right: 12px;
-}
- */
-.header-menu a:hover,
-img:hover {
+.header-menu a:hover {
   color: #35c0e3;
 }
 
@@ -62,6 +51,12 @@ img:hover {
   .header {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .header img {
+    margin-right: 32px;
   }
 
   .header-info-bg {
@@ -97,5 +92,6 @@ img:hover {
 @media (max-width: 600px) {
   .header img {
     margin-bottom: 12px;
+    margin-right: 0px;
   }
 }
