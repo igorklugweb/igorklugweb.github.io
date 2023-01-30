@@ -49,9 +49,22 @@
 @media (max-width: 800px) {
   .introducao-lista ul {
     grid-template-columns: 1fr;
+    justify-items: stretch;
+    justify-content: center;
+    gap: 20px;
+  }
+  .introducao-lista li {
+    padding: 12px 0px;
+  }
+  .introducao-lista li > p {
+    justify-self: center;
   }
   .introducao h1 {
     padding-top: 60px;
     margin-bottom: 40px;
+    padding-left: 20px;
+  }
+  .introducao-lista li:nth-child(even) {
+    background: var(--cor-3);
   }
 }

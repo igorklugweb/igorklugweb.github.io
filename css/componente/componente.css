@@ -6,3 +6,12 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+@media (max-width: 800px) {
+  .container2 {
+    box-sizing: border-box;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
