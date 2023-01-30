@@ -2,11 +2,9 @@
   background-image: url(../../img/main2.jpg);
   background-size: cover;
   background-position: center;
-  height: 600px;
 }
 
 .content h1 {
-  line-height: 0.9;
   padding-top: 240px;
   padding-bottom: 20px;
 }
@@ -21,5 +19,20 @@
 }
 
 .content p {
-  padding-left: 20px;
+  padding-bottom: 64px;
+}
+
+@media (max-width: 800px) {
+  .content h1 {
+    padding-top: 160px;
+    padding-bottom: 20px;
+  }
+  .content h1::after {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: linear-gradient(180deg, #35c0e3 0%, #3492d4 100%);
+    border-radius: 50%;
+  }
 }

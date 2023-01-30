@@ -45,3 +45,13 @@
 .introducao-lista h3 {
   margin: 12px 0;
 }
+
+@media (max-width: 800px) {
+  .introducao-lista ul {
+    grid-template-columns: 1fr;
+  }
+  .introducao h1 {
+    padding-top: 60px;
+    margin-bottom: 40px;
+  }
+}
