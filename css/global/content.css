@@ -24,8 +24,8 @@
 
 @media (max-width: 800px) {
   .content h1 {
-    padding-top: 160px;
-    padding-bottom: 20px;
+    padding-top: 128px;
+    padding-bottom: 16px;
   }
   .content h1::after {
     content: "";

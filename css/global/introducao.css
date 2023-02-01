@@ -51,18 +51,24 @@
     grid-template-columns: 1fr;
     justify-items: stretch;
     justify-content: center;
-    gap: 20px;
+    gap: 16px;
   }
   .introducao-lista li {
-    padding: 12px 0px;
+    padding: 4px 0px;
   }
   .introducao-lista li > p {
     justify-self: center;
+    padding: 0px 8px;
   }
   .introducao h1 {
-    padding-top: 60px;
-    margin-bottom: 40px;
+    padding-top: 32px;
+    margin-bottom: 16px;
     padding-left: 20px;
+  }
+  .introducao h1::after {
+    width: 8px;
+    height: 8px;
+    margin-left: 2px;
   }
   .introducao-lista li:nth-child(even) {
     background: var(--cor-3);
