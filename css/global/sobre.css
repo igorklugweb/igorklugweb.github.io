@@ -61,6 +61,7 @@
   .sobre-bg {
     margin-top: 0px;
     box-shadow: none;
+    padding-bottom: 0px;
   }
   .conteudo-sobre h1 {
     margin-top: 32px;
@@ -68,5 +69,8 @@
   }
   .conteudo-sobre p {
     padding-bottom: 16px;
+  }
+  .botao {
+    margin-bottom: 16px;
   }
 }

@@ -10,7 +10,9 @@ blockquote {
   padding: 0px;
   margin: 0px;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--cor-1);

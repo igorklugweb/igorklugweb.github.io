@@ -39,4 +39,7 @@
     background: linear-gradient(180deg, #35c0e3 0%, #3492d4 100%);
     border-radius: 50%;
   }
+  .content p {
+    padding-bottom: 16px;
+  }
 }

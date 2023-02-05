@@ -32,6 +32,8 @@
 .contato-endereco {
   background: var(--cor-11);
   padding: 32px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .contato-endereco p {
@@ -96,5 +98,12 @@
 @media (max-width: 800px) {
   .contato-conteudo {
     grid-template-columns: 1fr;
+  }
+  .contato {
+    margin-bottom: 32px;
+  }
+  .contato h1::after {
+    width: 8px;
+    height: 8px;
   }
 }

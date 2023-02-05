@@ -58,6 +58,7 @@
   .footer {
     grid-template-columns: 1fr;
     gap: 60px;
+    padding-top: 32px;
   }
   .footer-copy {
     margin-top: 0px;
