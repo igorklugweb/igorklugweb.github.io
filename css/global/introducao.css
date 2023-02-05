@@ -4,7 +4,7 @@
 
 .introducao h1 {
   padding-top: 72px;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
 }
 
 .introducao h1::after {
@@ -19,17 +19,25 @@
 
 .introducao-lista ul {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 350px);
 
   justify-items: center;
   max-width: 1200px;
   text-align: center;
-  gap: 60px;
-  align-items: start;
+  gap: 32px;
+  align-items: stretch;
+  align-content: stretch;
+  /* background-color: var(--cor-3); */
 }
 
 .introducao-lista li {
   display: grid;
+}
+
+.introducao-lista li:hover {
+  background-color: var(--cor-2);
+  transition: 2s;
+  border-radius: 4px;
 }
 
 .introducao-lista img {
@@ -43,7 +51,7 @@
 }
 
 .introducao-lista h3 {
-  margin: 12px 0;
+  margin: 16px 0;
 }
 
 @media (max-width: 800px) {
@@ -63,7 +71,7 @@
   .introducao h1 {
     padding-top: 32px;
     margin-bottom: 16px;
-    padding-left: 20px;
+    padding-left: 16px;
   }
   .introducao h1::after {
     width: 8px;

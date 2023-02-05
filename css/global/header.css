@@ -1,5 +1,5 @@
 .header-info-bg {
-  background-color: #000;
+  background-color: var(--cor-12);
 }
 
 .header-info ul {
@@ -28,19 +28,35 @@
 }
 
 .header-menu li {
-  padding: 20px;
+  padding: 16px;
   display: flex;
   align-items: end;
 }
 
 .header-menu a {
-  color: #fff;
-  padding: 20px 10px;
+  color: var(--cor-0);
+  padding: 20px 0px;
   display: inline-block;
+  position: relative;
 }
 
 .header-menu img {
-  margin-right: 12px;
+  margin-right: 16px;
+}
+
+.header-menu a:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: var(--cor-0);
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.header-menu a:hover:after {
+  width: 100%;
 }
 
 .header-menu a:hover {

@@ -1,6 +1,8 @@
 body,
 p,
 h1,
+h2,
+h3,
 ul,
 li,
 a,
@@ -20,6 +22,7 @@ li {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 img {
