@@ -1,9 +1,9 @@
 .content-bg {
-  background-image: url(../../img/main2.jpg);
+  background-image: url(../../img/main2-1.jpg);
   background-size: cover;
-  background-position-x: right;
-  background-position-y: top;
-  height: 100vh;
+  background-position-x: left;
+  background-position-y: bottom;
+  height: 90vh;
 }
 
 .content h1 {
@@ -24,11 +24,14 @@
   padding-bottom: 32px;
 }
 
-.botao {
-  margin-bottom: 64px;
-}
-
 @media (max-width: 800px) {
+  .content-bg {
+    background-image: url(../../img/main2-1-mob.jpg);
+    background-size: cover;
+    background-position-x: 65%;
+    background-position-y: bottom;
+    height: 90vh;
+  }
   .content h1 {
     padding-top: 64px;
     padding-bottom: 16px;

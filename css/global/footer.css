@@ -6,8 +6,8 @@
   display: grid;
   grid-template-columns: 3fr 5fr 4fr;
   gap: 40px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .footer h3 {
@@ -42,7 +42,7 @@
 
 .footer-copy {
   grid-column: 1/-1;
-  margin-top: 40px;
+  margin-top: 32px;
 }
 
 @media (max-width: 800px) {
@@ -50,17 +50,11 @@
     display: none;
   }
   .footer {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 600px) {
-  .footer {
     grid-template-columns: 1fr;
-    gap: 60px;
-    padding-top: 32px;
   }
-  .footer-copy {
-    margin-top: 0px;
+  .footer {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    gap: 16px;
   }
 }
